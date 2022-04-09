@@ -145,11 +145,14 @@
                          <syl wordpos="i" con="d">e</syl>
                       </verse>
                    </note>
-                   <note dur="8" oct="4" pname="g">
-                     <verse n="1">
-                       <syl wordpos="m" con="d">su</syl>
-                     </verse>
-                   </note>
+                   <chord dur="8">
+                     <note oct="4" pname="b" head.color="#E06100" />
+                     <note oct="4" pname="g">
+                       <verse n="1">
+                         <syl wordpos="m" con="d">su</syl>
+                       </verse>
+                     </note>
+                   </chord>
                    <note dur="8" oct="4" pname="b">
                      <verse n="1">
                        <syl wordpos="m" con="d">go</syl>
@@ -219,11 +222,14 @@
              <measure n="6">
                <staff n="1">
                  <layer>
-                   <note dur="2" oct="4" pname="f">
-                     <verse n="1">
-                       <syl wordpos="t">re</syl>
-                     </verse>
-                   </note>
+                   <chord dur="2">
+                     <note oct="4" pname="d" head.color="#E06100" />
+                     <note oct="4" pname="f">
+                       <verse n="1">
+                         <syl wordpos="t">re</syl>
+                       </verse>
+                     </note>
+                   </chord>
                    <rest dur="4"/>
                    <rest dur="8" dots="1" />
                    <note dur="16" oct="4" pname="f">
@@ -252,7 +258,7 @@
    						    <syl wordpos="t">no</syl>
    						  </verse>
    						</note>
-                      <note dur="4" oct="4" pname="f">
+                     <note dur="4" oct="4" pname="f">
                         <verse n="1">
    						     <syl wordpos="i" con="d">fiye</syl>
    						   </verse>
@@ -309,56 +315,80 @@
                 <measure n="9">
                   <staff n="1">
                     <layer>
-                      <note dur="2" oct="4" pname="a">
-                        <verse n="1">
-                          <syl wordpos="t">ne</syl>
-                        </verse>
-                      </note>
-                      <note dur="8" oct="4" pname="b">
-                        <verse n="1">
-                          <syl wordpos="i">enar</syl>
-                        </verse>
-                      </note>
-                      <note dur="8" oct="4" pname="b">
-                        <verse n="1">
-                          <syl wordpos="i" con="d">u</syl>
-                        </verse>
-                      </note>
-                      <note dur="8" oct="4" pname="g">
-                        <verse n="1">
-                          <syl wordpos="m" con="d">sa</syl>
-                        </verse>
-                      </note>
-                      <note dur="8" oct="4" pname="b">
-                        <verse n="1">
-                          <syl wordpos="m" con="d">noo</syl>
-                        </verse>
-                      </note>
+                      <chord dur="2">
+                        <note oct="5" pname="c" head.color="#E06100" />
+                        <note oct="4" pname="a">
+                          <verse n="1">
+                            <syl wordpos="t">ne</syl>
+                          </verse>
+                        </note>
+                      </chord>
+                      <chord dur="8">
+                        <note oct="5" pname="d" head.color="#E06100" />
+                        <note dur="8" oct="4" pname="b">
+                          <verse n="1">
+                            <syl wordpos="i">enar</syl>
+                          </verse>
+                        </note>
+                      </chord>
+                      <chord dur="8">
+                        <note oct="5" pname="d" head.color="#E06100" />
+                        <note oct="4" pname="b">
+                          <verse n="1">
+                            <syl wordpos="i" con="d">u</syl>
+                          </verse>
+                       </note>
+                      </chord>
+                      <chord dur="8">
+                        <note oct="4" pname="b" head.color="#E06100" />
+                        <note oct="4" pname="g">
+                          <verse n="1">
+                            <syl wordpos="m" con="d">sa</syl>
+                          </verse>
+                        </note>
+                      </chord>
+                      <chord dur="8">
+                        <note oct="5" pname="d" head.color="#E06100" />
+                        <note dur="8" oct="4" pname="b">
+                          <verse n="1">
+                            <syl wordpos="m" con="d">noo</syl>
+                          </verse>
+                        </note>
+                      </chord>
                     </layer>
                   </staff>
                 </measure>
                 <measure n="10">
                   <staff n="1">
                     <layer>
-                      <note dur="2" oct="4" pname="a">
-                        <verse n="1">
-                          <syl wordpos="t">li</syl>
-                        </verse>
-                      </note>
-                      <note dur="8" oct="5" pname="c">
-                        <verse n="1">
-                          <syl wordpos="i" con="d">E</syl>
-                        </verse>
-                      </note>
-                      <note dur="8" oct="5" pname="c">
-                        <verse n="1">
-                          <syl wordpos="m" con="d">maa</syl>
-                        </verse>
-                      </note>
-                        <note dur="8" oct="4" pname="b">
+                      <chord dur="2">
+                        <note oct="5" pname="c" head.color="#E06100" />
+                        <note oct="4" pname="a">
                           <verse n="1">
-                            <syl wordpos="t">no</syl>
+                            <syl wordpos="t">li</syl>
                           </verse>
+                        </note>
+                      </chord>
+                      <chord dur="8">
+                        <note oct="5" pname="d" head.color="#E06100" />
+                        <note oct="5" pname="c">
+                          <verse n="1">
+                            <syl wordpos="i" con="d">E</syl>
+                          </verse>
+                        </note>
+                      </chord>
+                      <chord dur="8">
+                        <note oct="5" pname="d" head.color="#E06100" />
+                        <note oct="5" pname="c">
+                          <verse n="1">
+                            <syl wordpos="m" con="d">maa</syl>
+                          </verse>
+                        </note>
+                      </chord>
+                      <note dur="8" oct="4" pname="b">
+                        <verse n="1">
+                          <syl wordpos="t">no</syl>
+                        </verse>
                       </note>
                       <note dur="8" oct="4" pname="b">
                         <verse n="1">
@@ -371,47 +401,68 @@
                <measure n="11">
                  <staff n="1">
                    <layer>
-                     <note dur="8" oct="4" pname="a">
-                       <verse n="1">
-                         <syl wordpos="m" con="d">vi</syl>
-                       </verse>
-                     </note>
-                     <note dur="4" oct="4" pname="a">
-                       <verse n="1">
-                         <syl wordpos="t">si</syl>
-                       </verse>
-                     </note>
-                     <note dur="8" oct="4" pname="a">
-                       <verse n="1">
-                         <syl wordpos="i" con="d">u</syl>
-                       </verse>
-                     </note>
-                     <note dur="4" oct="4" pname="b">
-                       <verse n="1">
-                         <syl wordpos="t">pu</syl>
-                       </verse>
-                     </note>
-                     <note dur="8" oct="4" pname="g">
-                       <verse n="1">
-                         <syl wordpos="i" con="d">ui</syl>
-                       </verse>
-                     </note>
-                     <note dur="8" oct="4" pname="b">
-                       <verse n="1">
-                         <syl wordpos="m" con="d">lo</syl>
-                       </verse>
-                     </note>
+                     <chord dur="8">
+                       <note oct="5" pname="c" head.color="#E06100" />
+                       <note oct="4" pname="a">
+                         <verse n="1">
+                           <syl wordpos="m" con="d">vi</syl>
+                         </verse>
+                       </note>
+                     </chord>
+                     <chord dur="4">
+                       <note oct="5" pname="c" head.color="#E06100" />
+                       <note oct="4" pname="a">
+                         <verse n="1">
+                           <syl wordpos="t">si</syl>
+                         </verse>
+                       </note>
+                     </chord>
+                     <chord dur="8">
+                       <note oct="5" pname="c" head.color="#E06100" />
+                       <note oct="4" pname="a">
+                         <verse n="1">
+                           <syl wordpos="i" con="d">u</syl>
+                         </verse>
+                       </note>
+                     </chord>
+                     <chord dur="4">
+                       <note oct="5" pname="d" head.color="#E06100" />
+                       <note oct="4" pname="b">
+                         <verse n="1">
+                           <syl wordpos="t">pu</syl>
+                         </verse>
+                       </note>
+                     </chord>
+                     <chord dur="8">
+                       <note oct="4" pname="b" head.color="#E06100" />
+                       <note oct="4" pname="g">
+                         <verse n="1">
+                           <syl wordpos="i" con="d">ui</syl>
+                         </verse>
+                       </note>
+                     </chord>
+                     <chord dur="8">
+                       <note oct="5" pname="d" head.color="#E06100" />
+                       <note oct="4" pname="b">
+                         <verse n="1">
+                           <syl wordpos="m" con="d">lo</syl>
+                         </verse>
+                      </note>
+                   </chord>
                    </layer>
                  </staff>
                </measure>
                <measure n="12">
                  <staff n="1">
                    <layer>
-                     <note dur="2" oct="4" pname="a">
-                       <verse n="1">
-                         <syl wordpos="t">re</syl>
-                       </verse>
-                     </note>
+                     <chord dur="2">
+                       <note oct="5" pname="c" head.color="#E06100" />
+                       <note oct="4" pname="a">
+                         <verse n="1">
+                           <syl wordpos="t">re</syl>
+                         </verse>
+                       </note>
+                     </chord>
                      <rest dur="4" />
                      <note dur="8" oct="4" pname="d">
                        <verse n="1">
@@ -492,17 +543,23 @@
                          <syl wordpos="t">ket</syl>
                        </verse>
                      </note>
-                     <note dur="8" oct="4" pname="f">
-                       <verse n="1">
-                         <syl wordpos="i" con="d">u</syl>
-                       </verse>
-                     </note>
-                     <note dur="8" oct="4" pname="e">
-                       <verse n="1">
-                         <syl wordpos="m" con="d">se</syl>
-                       </verse>
-                     </note>
-                     <note dur="8" oct="4" pname="e">
+                     <chord dur="8">
+                       <note oct="4" pname="a" head.color="#E06100" />
+                       <note oct="4" pname="f">
+                         <verse n="1">
+                           <syl wordpos="i" con="d">u</syl>
+                         </verse>
+                       </note>
+                     </chord>
+                     <chord dur="8">
+                       <note oct="4" pname="g" head.color="#E06100" />
+                       <note oct="4" pname="e">
+                         <verse n="1">
+                           <syl wordpos="m" con="d">se</syl>
+                         </verse>
+                       </note>
+                    </chord>
+                    <note dur="8" oct="4" pname="e">
                        <verse n="1">
                          <syl wordpos="m" con="d">noo</syl>
                        </verse>
@@ -518,13 +575,16 @@
                <measure n="16">
                  <staff n="1">
                    <layer>
-                     <note dur="2" oct="4" pname="d">
-                       <verse n="1">
-                         <syl wordpos="i">mal</syl>
-                       </verse>
-                     </note>
-                     <rest dur="4" />
-                     <note dur="8" oct="4" pname="d">
+                     <chord dur="2">
+                       <note oct="4" pname="f" head.color="#E06100" />
+                       <note oct="4" pname="d">
+                         <verse n="1">
+                           <syl wordpos="i">mal</syl>
+                         </verse>
+                       </note>
+                    </chord>
+                    <rest dur="4" />
+                    <note dur="8" oct="4" pname="d">
                        <verse n="1">
                          <syl wordpos="i" con="d">Ma</syl>
                        </verse>
@@ -550,47 +610,68 @@
                          <syl wordpos="m" con="d">fran</syl>
                        </verse>
                      </note>
-                     <note dur="8" oct="4" pname="d">
-                       <verse n="1">
-                         <syl wordpos="t">ce</syl>
-                       </verse>
-                     </note>
-                     <note dur="8" oct="4" pname="d">
-                       <verse n="1">
-                         <syl wordpos="i" con="d">gu</syl>
-                       </verse>
-                     </note>
-                     <note dur="8" oct="4" pname="e">
-                       <verse n="1">
-                         <syl wordpos="m" con="d">kaa</syl>
-                       </verse>
-                     </note>
-                     <note dur="8" oct="4" pname="e">
-                       <verse n="1">
-                         <syl wordpos="m" con="d">noo</syl>
-                       </verse>
-                     </note>
-                     <note dur="8" oct="4" pname="c">
-                       <verse n="1">
-                         <syl wordpos="t">li</syl>
-                       </verse>
-                     </note>
-                     <note dur="8" oct="4" pname="c">
-                       <verse n="1">
-                         <syl wordpos="i" con="d">bi</syl>
-                       </verse>
-                     </note>
+                     <chord dur="8">
+                       <note oct="4" pname="f" head.color="#E06100" />
+                       <note oct="4" pname="d">
+                         <verse n="1">
+                           <syl wordpos="t">ce</syl>
+                         </verse>
+                       </note>
+                     </chord>
+                     <chord dur="8">
+                       <note oct="4" pname="f" head.color="#E06100" />
+                       <note oct="4" pname="d">
+                         <verse n="1">
+                           <syl wordpos="i" con="d">gu</syl>
+                         </verse>
+                       </note>
+                    </chord>
+                    <chord dur="8">
+                       <note oct="4" pname="a" head.color="#E06100" />
+                       <note oct="4" pname="e">
+                         <verse n="1">
+                           <syl wordpos="m" con="d">kaa</syl>
+                         </verse>
+                       </note>
+                    </chord>
+                    <chord dur="8">
+                       <note oct="4" pname="a" head.color="#E06100" />
+                       <note oct="4" pname="e">
+                         <verse n="1">
+                           <syl wordpos="m" con="d">noo</syl>
+                         </verse>
+                       </note>
+                    </chord>
+                    <chord dur="8">
+                       <note oct="4" pname="g" head.color="#E06100" />
+                       <note oct="4" pname="c">
+                         <verse n="1">
+                           <syl wordpos="t">li</syl>
+                         </verse>
+                       </note>
+                    </chord>
+                    <chord dur="8">
+                       <note oct="4" pname="g" head.color="#E06100" />
+                       <note oct="4" pname="c">
+                         <verse n="1">
+                           <syl wordpos="i" con="d">bi</syl>
+                         </verse>
+                       </note>
+                     </chord>
                    </layer>
                  </staff>
                </measure>
                <measure n="18" metcon="false" right="rptend">
                  <staff n="1">
                    <layer>
-                     <note dur="2" oct="4" pname="d">
-                       <verse n="1">
-                         <syl wordpos="t">yeb</syl>
-                       </verse>
-                     </note>
+                     <chord dur="2">
+                       <note oct="4" pname="f" head.color="#E06100" />
+                       <note oct="4" pname="d">
+                         <verse n="1">
+                           <syl wordpos="t">yeb</syl>
+                         </verse>
+                       </note>
+                     </chord>
                    </layer>
                  </staff>
                </measure>
