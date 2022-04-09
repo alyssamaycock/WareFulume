@@ -34,7 +34,7 @@
           <scoreDef key.sig="1f" meter.sym="cut" meter.count="2" meter.unit="2">
               <staffGrp n="1">
                   <staffDef clef.line="2" clef.shape="G" n="1" lines="5">
-                    <label>Melody</label>
+                    <label>Harmonized Melody</label>
                   </staffDef>
               </staffGrp>
           </scoreDef>
